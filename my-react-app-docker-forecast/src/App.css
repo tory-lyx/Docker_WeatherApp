@@ -1,0 +1,21 @@
+.container {
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.weather-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
